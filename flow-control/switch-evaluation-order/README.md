@@ -1,0 +1,16 @@
+# Switch Evaluation Order
+
+Switch cases evaluate cases from top to bottom, stopping when a case succeeds.
+
+For example,
+
+~~~
+switch i {
+case 0:
+case f():
+}
+~~~
+
+does not call `f` if `i==0`.
+
+> **Source:** https://tour.golang.org/flowcontrol/10
