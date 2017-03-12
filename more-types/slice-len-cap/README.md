@@ -12,7 +12,7 @@ The length and capacity of a slice `s` can be obtained using the expressions
 
 You can extend a slice's length by re-slicing it, provided it has sufficient capacity.
 
-> **Note:** Once elements at lower indecies of the slice are dropped, the overall capacity of
+> **Note:** Once elements at lower indicies of the slice are dropped, the overall capacity of
 the slice is permanently reduced.
 
-> **Source:** https://tour.golang.org/moretypes/11 
+> **Source:** https://tour.golang.org/moretypes/11
