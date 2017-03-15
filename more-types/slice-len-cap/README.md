@@ -3,7 +3,7 @@
 A slice has both a `length` and a `capacity`.
 
 The `length` of a slice is the number of elements it contains.
-
+README>mdREADME>md
 The `capacity` of a slice is the number of elements in the underlying array,
 counting from the first element in the slice.
 
